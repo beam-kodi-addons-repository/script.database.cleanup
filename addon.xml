@@ -1,0 +1,14 @@
+  
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<addon id="script.database.cleanup" name="Video Database Cleanup" version="0.0.1" provider-name="Beam">
+  <requires>
+    <import addon="script.module.myconnpy" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A Script to cleanup Kodi's video database</summary>
+    <description lang="en">This program add-on will clean streams, old missing files and general junk from your video database. Works with both MySQL and SQLite libraries.As well as removing old streams and missing files.</description>
+    <disclaimer lang="en_GB">Whilst every effort has been taken to ensure it doesn't, this script could break your database. Always make sure you back it up !!</disclaimer>
+  </extension>
+</addon>
